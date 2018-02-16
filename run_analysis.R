@@ -1,9 +1,3 @@
-fileUrl<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#download zip file
-download.file(fileUrl,"./getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",method = "auto")
-#unzip file
-unzip("getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",list = TRUE)
-
 ###Read data from the feature and activity files
 Features <- read.table("./features.txt", header = FALSE)
 activitys_names<-read.table("./activity_labels.txt", header = FALSE)
