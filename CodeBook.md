@@ -1,8 +1,10 @@
 Description of the study:
+
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.The raw data for this project is accelerometer data collected from the Samsung Galaxy S smartphone.Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity were captured at a constant rate of 50Hz. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
 
 
 The dataset include the following files:
+
 - 'train/X_train.txt': Training set.
 - 'train/y_train.txt': Training labels.
 - 'test/X_test.txt': Test set.
@@ -14,6 +16,7 @@ The dataset include the following files:
 
 
 Analysis Process:
+
 The train and test datasets are read in and merged into one dataframe.
 The train and test dataframes are merged into one dataframe.
 Only the subject, activity, mean(), and sd() columns are extracted by examing the columns names.
@@ -34,6 +37,7 @@ Tidy_Data --- The final output dataframe with averaged mean and sd for each subj
 
 
 Variables in output file:
+
  [1] "Subjects" --- The id of the experiment participant.  
  [2] "Activities" --- The name of the activity that the measurements correspond to.   
  [3] "Body acceleration signal in time domain (from the accelerometer)MEAN()-X"                                                         
